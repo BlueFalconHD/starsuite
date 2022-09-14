@@ -1,0 +1,28 @@
+format = " $character "
+
+
+# Set the right format to the following:
+# [ 📂 ~ ] [ 🍡 branch ] [ ⏰ 10:10 ] 📝
+right_format="$directory$git_branch $time "
+
+
+
+[character]
+success_symbol = "[🚀](fg:blue)"
+error_symbol = "[🔥](fg:red)"
+vicmd_symbol = "[😶](fg:green)"
+
+
+[directory]
+format = '[\[ 📂 [$path](fg:yellow italic) \]](fg:yellow)'
+disabled = false
+
+[git_branch]
+format = ' [\[ 🍡 $branch \]](fg:blue bold)'
+disabled = false
+
+[time]
+disabled = false
+format = '[\[ ⏰ [$time](fg:red italic) \]](fg:red)'
+time_format = "%R" #%R for hh:mm, and %T for hh:mm:ss
+use_12hr = true
