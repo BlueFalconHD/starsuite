@@ -6,6 +6,8 @@
   <br>
   <h1 align="center" >Starsuite</h1>
   <h3 align="center" >My awesome <code>dotfiles</code>.</h3>
+  <h5 align="center">logo stolen and modified with ❤️ from <a href="https://github.com/starship/starship">starship</a><h5>
+
 </p>
 
 <br>
