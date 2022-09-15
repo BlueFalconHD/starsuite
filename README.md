@@ -2,10 +2,10 @@
 
 <!-- Top section -->
 <p align="center">
-  <img src="./assets/logo-dark.png" height="175px">
+  <img src="./assets/logo.png" height="175px">
   <br>
-  <h1 align="center" >Readmeify</h1>
-  <h3 align="center" >The modern <code>README.md</code> standard.</h3>
+  <h1 align="center" >Starsuite</h1>
+  <h3 align="center" >My awesome <code>dotfiles</code>.</h3>
 </p>
 
 <br>
@@ -22,6 +22,11 @@
 To install, make sure you have [Starship](https://starship.rs) and [Wezterm](https://wezfurlong.org/wezterm/) installed. Then, all you have to do is `git clone https://github.com/bluefalconhd/starsuite && cd ./starsuite/installer/` and run `bash install.sh` whenever you are ready to install. This preserves your current `starship.toml` and `wezterm/` located in the `~/.config` directory to `~/.config/.starsuite_backups`.
 
 # 🌅 Screenshots
+![Wezterm.png](./assets/wezterm.png)
+> Wezterm
+
+![Promt.png](assets/prompt.png)
+> Starship prompt.
 
 # 🚀 Contributing
 Please use conventional commits when contributing! Thats all!
